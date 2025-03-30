@@ -15,5 +15,9 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
+        Student s = new Student("gaurav", "23", 101);
+		System.out.println(s.toString());
     }
+    
+ 
 }
